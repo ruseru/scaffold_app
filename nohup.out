@@ -1,0 +1,1431 @@
+DEPRECATION WARNING:
+Sass 3.5 will no longer support Ruby 1.9.3.
+Please upgrade to Ruby 2.0.0 or greater as soon as possible.
+
+        SECURITY WARNING: No secret option provided to Rack::Session::Cookie.
+        This poses a security threat. It is strongly recommended that you
+        provide a secret to prevent exploits that may be possible from crafted
+        cookies. This will not be supported in future versions of Rack, and
+        future versions will even invalidate your existing user cookies.
+
+        Called from: /home/ruser/.rvm/gems/ruby-1.9.3-p551/gems/actionpack-3.2.3/lib/action_dispatch/middleware/session/abstract_store.rb:28:in `initialize'.
+
+[2016-11-16 13:48:14] INFO  WEBrick 1.3.1
+[2016-11-16 13:48:14] INFO  ruby 1.9.3 (2014-11-13) [x86_64-linux]
+[2016-11-16 13:48:14] INFO  WEBrick::HTTPServer#start: pid=13442 port=3000
+[2016-11-16 13:52:34] WARN  Could not determine content-length of response body. Set content-length of the response or set Response#chunked = true
+[2016-11-16 13:52:34] WARN  Could not determine content-length of response body. Set content-length of the response or set Response#chunked = true
+=> Booting WEBrick
+=> Rails 3.2.3 application starting in development on http://0.0.0.0:3000
+=> Call with -d to detach
+=> Ctrl-C to shutdown server
+
+
+Started GET "/assets/rails.png" for 127.0.0.1 at 2016-11-16 13:52:34 +0200
+Served asset /rails.png - 304 Not Modified (1ms)
+[2016-11-16 13:55:25] WARN  Could not determine content-length of response body. Set content-length of the response or set Response#chunked = true
+[2016-11-16 13:55:29] WARN  Could not determine content-length of response body. Set content-length of the response or set Response#chunked = true
+[2016-11-16 13:55:29] WARN  Could not determine content-length of response body. Set content-length of the response or set Response#chunked = true
+[2016-11-16 13:55:29] WARN  Could not determine content-length of response body. Set content-length of the response or set Response#chunked = true
+[2016-11-16 13:55:31] WARN  Could not determine content-length of response body. Set content-length of the response or set Response#chunked = true
+[2016-11-16 13:55:31] WARN  Could not determine content-length of response body. Set content-length of the response or set Response#chunked = true
+[2016-11-16 13:55:31] WARN  Could not determine content-length of response body. Set content-length of the response or set Response#chunked = true
+[2016-11-16 13:55:46] WARN  Could not determine content-length of response body. Set content-length of the response or set Response#chunked = true
+[2016-11-16 13:55:46] WARN  Could not determine content-length of response body. Set content-length of the response or set Response#chunked = true
+[2016-11-16 13:55:46] WARN  Could not determine content-length of response body. Set content-length of the response or set Response#chunked = true
+[2016-11-16 13:55:49] WARN  Could not determine content-length of response body. Set content-length of the response or set Response#chunked = true
+[2016-11-16 13:55:49] WARN  Could not determine content-length of response body. Set content-length of the response or set Response#chunked = true
+[2016-11-16 13:55:49] WARN  Could not determine content-length of response body. Set content-length of the response or set Response#chunked = true
+[2016-11-16 13:55:49] WARN  Could not determine content-length of response body. Set content-length of the response or set Response#chunked = true
+[2016-11-16 14:20:11] WARN  Could not determine content-length of response body. Set content-length of the response or set Response#chunked = true
+[2016-11-16 14:20:11] WARN  Could not determine content-length of response body. Set content-length of the response or set Response#chunked = true
+[2016-11-16 14:20:11] WARN  Could not determine content-length of response body. Set content-length of the response or set Response#chunked = true
+[2016-11-16 14:20:11] WARN  Could not determine content-length of response body. Set content-length of the response or set Response#chunked = true
+[2016-11-16 14:20:11] WARN  Could not determine content-length of response body. Set content-length of the response or set Response#chunked = true
+
+
+Started GET "/users" for 127.0.0.1 at 2016-11-16 13:54:16 +0200
+Processing by UsersController#index as HTML
+  [1m[36mUser Load (0.1ms)[0m  [1mSELECT "users".* FROM "users" [0m
+  Rendered users/index.html.erb within layouts/application (16.1ms)
+Warning. Error encountered while saving cache /home/ruser/Desktop/rails_projects/scaffold_app/tmp/cache/sass/fa9fc927d7aeb59c6e941c6c60fa65275b871431/scaffolds.css.scssc: can't dump anonymous class #<Class:0x0000000444cc68>
+Compiled scaffolds.css  (12ms)  (pid 13442)
+Warning. Error encountered while saving cache /home/ruser/Desktop/rails_projects/scaffold_app/tmp/cache/sass/fa9fc927d7aeb59c6e941c6c60fa65275b871431/users.css.scssc: can't dump anonymous class #<Class:0x0000000444cc68>
+Compiled users.css  (1ms)  (pid 13442)
+Compiled application.css  (20ms)  (pid 13442)
+Compiled jquery.js  (16ms)  (pid 13442)
+Compiled jquery_ujs.js  (0ms)  (pid 13442)
+Compiled users.js  (683ms)  (pid 13442)
+Compiled application.js  (726ms)  (pid 13442)
+Completed 200 OK in 837ms (Views: 785.6ms | ActiveRecord: 1.3ms)
+
+
+Started GET "/assets/application.css?body=1" for 127.0.0.1 at 2016-11-16 13:54:17 +0200
+Served asset /application.css - 200 OK (4ms)
+
+
+Started GET "/assets/scaffolds.css?body=1" for 127.0.0.1 at 2016-11-16 13:54:17 +0200
+Served asset /scaffolds.css - 200 OK (2ms)
+
+
+Started GET "/assets/jquery.js?body=1" for 127.0.0.1 at 2016-11-16 13:54:17 +0200
+Served asset /jquery.js - 200 OK (5ms)
+
+
+Started GET "/assets/users.css?body=1" for 127.0.0.1 at 2016-11-16 13:54:17 +0200
+Served asset /users.css - 200 OK (1ms)
+
+
+Started GET "/assets/jquery_ujs.js?body=1" for 127.0.0.1 at 2016-11-16 13:54:17 +0200
+Served asset /jquery_ujs.js - 200 OK (1ms)
+
+
+Started GET "/assets/users.js?body=1" for 127.0.0.1 at 2016-11-16 13:54:17 +0200
+Served asset /users.js - 200 OK (1ms)
+
+
+Started GET "/assets/application.js?body=1" for 127.0.0.1 at 2016-11-16 13:54:17 +0200
+Served asset /application.js - 200 OK (3ms)
+
+
+Started GET "/users/1" for 127.0.0.1 at 2016-11-16 13:54:42 +0200
+Processing by UsersController#show as HTML
+  Parameters: {"id"=>"1"}
+  [1m[35mUser Load (0.2ms)[0m  SELECT "users".* FROM "users" WHERE "users"."id" = ? LIMIT 1  [["id", "1"]]
+Completed 500 Internal Server Error in 2ms
+
+ActiveRecord::RecordNotFound (Couldn't find User with id=1):
+  app/controllers/users_controller.rb:16:in `show'
+
+
+  Rendered /home/ruser/.rvm/gems/ruby-1.9.3-p551/gems/actionpack-3.2.3/lib/action_dispatch/middleware/templates/rescues/_trace.erb (1.8ms)
+  Rendered /home/ruser/.rvm/gems/ruby-1.9.3-p551/gems/actionpack-3.2.3/lib/action_dispatch/middleware/templates/rescues/_request_and_response.erb (0.7ms)
+  Rendered /home/ruser/.rvm/gems/ruby-1.9.3-p551/gems/actionpack-3.2.3/lib/action_dispatch/middleware/templates/rescues/diagnostics.erb within rescues/layout (7.5ms)
+
+
+Started GET "/users/new" for 127.0.0.1 at 2016-11-16 13:54:47 +0200
+Processing by UsersController#new as HTML
+  Rendered users/_form.html.erb (32.7ms)
+  Rendered users/new.html.erb within layouts/application (37.4ms)
+Completed 200 OK in 58ms (Views: 40.2ms | ActiveRecord: 0.0ms)
+
+
+Started POST "/users" for 127.0.0.1 at 2016-11-16 13:55:25 +0200
+Processing by UsersController#create as HTML
+  Parameters: {"utf8"=>"✓", "authenticity_token"=>"30CbzjM78+IsGNtSM6SIYzGWtHTrORpwH6mvV2NKuY4=", "user"=>{"name"=>"iliyahoc", "email"=>"iliya@t-soft.biz"}, "commit"=>"Create User"}
+  [1m[36m (0.1ms)[0m  [1mbegin transaction[0m
+  [1m[35mSQL (12.2ms)[0m  INSERT INTO "users" ("created_at", "email", "name", "updated_at") VALUES (?, ?, ?, ?)  [["created_at", Wed, 16 Nov 2016 11:55:25 UTC +00:00], ["email", "iliya@t-soft.biz"], ["name", "iliyahoc"], ["updated_at", Wed, 16 Nov 2016 11:55:25 UTC +00:00]]
+  [1m[36m (3.7ms)[0m  [1mcommit transaction[0m
+Redirected to http://localhost:3000/users/1
+Completed 302 Found in 19ms (ActiveRecord: 16.0ms)
+
+
+Started GET "/users/1" for 127.0.0.1 at 2016-11-16 13:55:25 +0200
+Processing by UsersController#show as HTML
+  Parameters: {"id"=>"1"}
+  [1m[35mUser Load (0.1ms)[0m  SELECT "users".* FROM "users" WHERE "users"."id" = ? LIMIT 1  [["id", "1"]]
+  Rendered users/show.html.erb within layouts/application (0.8ms)
+Completed 200 OK in 5ms (Views: 3.5ms | ActiveRecord: 0.1ms)
+
+
+Started GET "/users" for 127.0.0.1 at 2016-11-16 13:55:29 +0200
+Processing by UsersController#index as HTML
+  [1m[36mUser Load (0.1ms)[0m  [1mSELECT "users".* FROM "users" [0m
+  Rendered users/index.html.erb within layouts/application (1.0ms)
+Completed 200 OK in 20ms (Views: 18.9ms | ActiveRecord: 0.1ms)
+
+
+Started GET "/assets/scaffolds.css?body=1" for 127.0.0.1 at 2016-11-16 13:55:29 +0200
+Served asset /scaffolds.css - 304 Not Modified (0ms)
+
+
+Started GET "/assets/users.css?body=1" for 127.0.0.1 at 2016-11-16 13:55:29 +0200
+Served asset /users.css - 304 Not Modified (0ms)
+
+
+Started GET "/assets/users.js?body=1" for 127.0.0.1 at 2016-11-16 13:55:29 +0200
+Served asset /users.js - 304 Not Modified (0ms)
+
+
+Started GET "/users/1" for 127.0.0.1 at 2016-11-16 13:55:31 +0200
+Processing by UsersController#show as HTML
+  Parameters: {"id"=>"1"}
+  [1m[35mUser Load (0.1ms)[0m  SELECT "users".* FROM "users" WHERE "users"."id" = ? LIMIT 1  [["id", "1"]]
+  Rendered users/show.html.erb within layouts/application (0.5ms)
+Completed 200 OK in 4ms (Views: 3.1ms | ActiveRecord: 0.1ms)
+
+
+Started GET "/assets/scaffolds.css?body=1" for 127.0.0.1 at 2016-11-16 13:55:31 +0200
+Served asset /scaffolds.css - 304 Not Modified (1ms)
+
+
+Started GET "/assets/users.js?body=1" for 127.0.0.1 at 2016-11-16 13:55:31 +0200
+Served asset /users.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/users.css?body=1" for 127.0.0.1 at 2016-11-16 13:55:31 +0200
+Served asset /users.css - 304 Not Modified (0ms)
+
+
+Started GET "/users/1/edit" for 127.0.0.1 at 2016-11-16 13:55:46 +0200
+Processing by UsersController#edit as HTML
+  Parameters: {"id"=>"1"}
+  [1m[36mUser Load (0.1ms)[0m  [1mSELECT "users".* FROM "users" WHERE "users"."id" = ? LIMIT 1[0m  [["id", "1"]]
+  Rendered users/_form.html.erb (3.8ms)
+  Rendered users/edit.html.erb within layouts/application (5.0ms)
+Completed 200 OK in 9ms (Views: 7.7ms | ActiveRecord: 0.1ms)
+
+
+Started GET "/assets/users.css?body=1" for 127.0.0.1 at 2016-11-16 13:55:46 +0200
+Served asset /users.css - 304 Not Modified (0ms)
+
+
+Started GET "/assets/scaffolds.css?body=1" for 127.0.0.1 at 2016-11-16 13:55:46 +0200
+Served asset /scaffolds.css - 304 Not Modified (0ms)
+
+
+Started GET "/assets/users.js?body=1" for 127.0.0.1 at 2016-11-16 13:55:46 +0200
+Served asset /users.js - 304 Not Modified (0ms)
+
+
+Started GET "/users" for 127.0.0.1 at 2016-11-16 13:55:49 +0200
+Processing by UsersController#index as HTML
+  [1m[35mUser Load (0.1ms)[0m  SELECT "users".* FROM "users" 
+  Rendered users/index.html.erb within layouts/application (0.8ms)
+Completed 200 OK in 4ms (Views: 3.2ms | ActiveRecord: 0.1ms)
+
+
+Started GET "/assets/users.js?body=1" for 127.0.0.1 at 2016-11-16 13:55:49 +0200
+Served asset /users.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/users.css?body=1" for 127.0.0.1 at 2016-11-16 13:55:49 +0200
+Served asset /users.css - 304 Not Modified (0ms)
+
+
+Started GET "/assets/scaffolds.css?body=1" for 127.0.0.1 at 2016-11-16 13:55:49 +0200
+Served asset /scaffolds.css - 304 Not Modified (0ms)
+
+
+Started GET "/users" for 127.0.0.1 at 2016-11-16 14:20:11 +0200
+Processing by UsersController#index as HTML
+  [1m[36mUser Load (0.2ms)[0m  [1mSELECT "users".* FROM "users" [0m
+  Rendered users/index.html.erb within layouts/application (1.1ms)
+Completed 200 OK in 6ms (Views: 4.3ms | ActiveRecord: 0.2ms)
+
+
+Started GET "/assets/application.css?body=1" for 127.0.0.1 at 2016-11-16 14:20:11 +0200
+Served asset /application.css - 304 Not Modified (0ms)
+
+
+Started GET "/assets/scaffolds.css?body=1" for 127.0.0.1 at 2016-11-16 14:20:11 +0200
+Served asset /scaffolds.css - 304 Not Modified (0ms)
+
+
+Started GET "/assets/jquery.js?body=1" for 127.0.0.1 at 2016-11-16 14:20:11 +0200
+Served asset /jquery.js - 304 Not Modified (9ms)
+
+
+Started GET "/assets/users.css?body=1" for 127.0.0.1 at 2016-11-16 14:20:11 +0200
+Served asset /users.css - 304 Not Modified (0ms)
+
+
+Started GET "/assets/jquery_ujs.js?body=1" for 127.0.0.1 at 2016-11-16 14:20:11 +0200
+Served asset /jquery_ujs.js - 304 Not Modified (0ms)
+[2016-11-16 14:20:11] WARN  Could not determine content-length of response body. Set content-length of the response or set Response#chunked = true
+[2016-11-16 14:20:11] WARN  Could not determine content-length of response body. Set content-length of the response or set Response#chunked = true
+[2016-11-16 14:20:11] WARN  Could not determine content-length of response body. Set content-length of the response or set Response#chunked = true
+[2016-11-16 14:20:41] WARN  Could not determine content-length of response body. Set content-length of the response or set Response#chunked = true
+[2016-11-16 14:20:41] WARN  Could not determine content-length of response body. Set content-length of the response or set Response#chunked = true
+[2016-11-16 14:20:41] WARN  Could not determine content-length of response body. Set content-length of the response or set Response#chunked = true
+[2016-11-16 14:20:41] WARN  Could not determine content-length of response body. Set content-length of the response or set Response#chunked = true
+[2016-11-16 14:20:41] WARN  Could not determine content-length of response body. Set content-length of the response or set Response#chunked = true
+[2016-11-16 14:20:41] WARN  Could not determine content-length of response body. Set content-length of the response or set Response#chunked = true
+[2016-11-16 14:20:41] WARN  Could not determine content-length of response body. Set content-length of the response or set Response#chunked = true
+[2016-11-16 14:20:41] WARN  Could not determine content-length of response body. Set content-length of the response or set Response#chunked = true
+[2016-11-16 14:20:50] WARN  Could not determine content-length of response body. Set content-length of the response or set Response#chunked = true
+[2016-11-16 14:20:50] WARN  Could not determine content-length of response body. Set content-length of the response or set Response#chunked = true
+[2016-11-16 14:20:50] WARN  Could not determine content-length of response body. Set content-length of the response or set Response#chunked = true
+[2016-11-16 14:20:50] WARN  Could not determine content-length of response body. Set content-length of the response or set Response#chunked = true
+[2016-11-16 14:20:50] WARN  Could not determine content-length of response body. Set content-length of the response or set Response#chunked = true
+[2016-11-16 14:20:50] WARN  Could not determine content-length of response body. Set content-length of the response or set Response#chunked = true
+[2016-11-16 14:20:50] WARN  Could not determine content-length of response body. Set content-length of the response or set Response#chunked = true
+[2016-11-16 14:20:53] WARN  Could not determine content-length of response body. Set content-length of the response or set Response#chunked = true
+[2016-11-16 14:20:53] WARN  Could not determine content-length of response body. Set content-length of the response or set Response#chunked = true
+[2016-11-16 14:20:53] WARN  Could not determine content-length of response body. Set content-length of the response or set Response#chunked = true
+[2016-11-16 14:20:53] WARN  Could not determine content-length of response body. Set content-length of the response or set Response#chunked = true
+[2016-11-16 14:20:53] WARN  Could not determine content-length of response body. Set content-length of the response or set Response#chunked = true
+[2016-11-16 14:20:53] WARN  Could not determine content-length of response body. Set content-length of the response or set Response#chunked = true
+[2016-11-16 14:20:53] WARN  Could not determine content-length of response body. Set content-length of the response or set Response#chunked = true
+[2016-11-16 14:20:58] WARN  Could not determine content-length of response body. Set content-length of the response or set Response#chunked = true
+[2016-11-16 14:20:58] WARN  Could not determine content-length of response body. Set content-length of the response or set Response#chunked = true
+[2016-11-16 14:20:58] WARN  Could not determine content-length of response body. Set content-length of the response or set Response#chunked = true
+[2016-11-16 14:20:59] WARN  Could not determine content-length of response body. Set content-length of the response or set Response#chunked = true
+[2016-11-16 14:20:59] WARN  Could not determine content-length of response body. Set content-length of the response or set Response#chunked = true
+[2016-11-16 14:20:59] WARN  Could not determine content-length of response body. Set content-length of the response or set Response#chunked = true
+[2016-11-16 14:20:59] WARN  Could not determine content-length of response body. Set content-length of the response or set Response#chunked = true
+
+
+Started GET "/assets/users.js?body=1" for 127.0.0.1 at 2016-11-16 14:20:11 +0200
+Served asset /users.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/application.js?body=1" for 127.0.0.1 at 2016-11-16 14:20:11 +0200
+Served asset /application.js - 304 Not Modified (0ms)
+
+
+Started GET "/users/new" for 127.0.0.1 at 2016-11-16 14:20:41 +0200
+Processing by UsersController#new as HTML
+  Rendered users/_form.html.erb (1.7ms)
+  Rendered users/new.html.erb within layouts/application (2.4ms)
+Completed 200 OK in 5ms (Views: 5.0ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/assets/application.css?body=1" for 127.0.0.1 at 2016-11-16 14:20:41 +0200
+Served asset /application.css - 304 Not Modified (0ms)
+
+
+Started GET "/assets/scaffolds.css?body=1" for 127.0.0.1 at 2016-11-16 14:20:41 +0200
+Served asset /scaffolds.css - 304 Not Modified (1ms)
+
+
+Started GET "/assets/jquery_ujs.js?body=1" for 127.0.0.1 at 2016-11-16 14:20:41 +0200
+Served asset /jquery_ujs.js - 304 Not Modified (1ms)
+
+
+Started GET "/assets/jquery.js?body=1" for 127.0.0.1 at 2016-11-16 14:20:41 +0200
+Served asset /jquery.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/users.css?body=1" for 127.0.0.1 at 2016-11-16 14:20:41 +0200
+Served asset /users.css - 304 Not Modified (0ms)
+
+
+Started GET "/assets/users.js?body=1" for 127.0.0.1 at 2016-11-16 14:20:41 +0200
+Served asset /users.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/application.js?body=1" for 127.0.0.1 at 2016-11-16 14:20:41 +0200
+Served asset /application.js - 304 Not Modified (0ms)
+
+
+Started POST "/users" for 127.0.0.1 at 2016-11-16 14:20:50 +0200
+Processing by UsersController#create as HTML
+  Parameters: {"utf8"=>"✓", "authenticity_token"=>"30CbzjM78+IsGNtSM6SIYzGWtHTrORpwH6mvV2NKuY4=", "user"=>{"name"=>"iliyahoc2", "email"=>"iliyahoc@derp.com"}, "commit"=>"Create User"}
+  [1m[35m (0.1ms)[0m  begin transaction
+  [1m[36mSQL (0.4ms)[0m  [1mINSERT INTO "users" ("created_at", "email", "name", "updated_at") VALUES (?, ?, ?, ?)[0m  [["created_at", Wed, 16 Nov 2016 12:20:50 UTC +00:00], ["email", "iliyahoc@derp.com"], ["name", "iliyahoc2"], ["updated_at", Wed, 16 Nov 2016 12:20:50 UTC +00:00]]
+  [1m[35m (3.6ms)[0m  commit transaction
+Redirected to http://localhost:3000/users/2
+Completed 302 Found in 6ms (ActiveRecord: 4.0ms)
+
+
+Started GET "/users/2" for 127.0.0.1 at 2016-11-16 14:20:50 +0200
+Processing by UsersController#show as HTML
+  Parameters: {"id"=>"2"}
+  [1m[36mUser Load (0.1ms)[0m  [1mSELECT "users".* FROM "users" WHERE "users"."id" = ? LIMIT 1[0m  [["id", "2"]]
+  Rendered users/show.html.erb within layouts/application (0.4ms)
+Completed 200 OK in 4ms (Views: 2.9ms | ActiveRecord: 0.1ms)
+
+
+Started GET "/assets/application.css?body=1" for 127.0.0.1 at 2016-11-16 14:20:50 +0200
+Served asset /application.css - 304 Not Modified (0ms)
+
+
+Started GET "/assets/scaffolds.css?body=1" for 127.0.0.1 at 2016-11-16 14:20:50 +0200
+Served asset /scaffolds.css - 304 Not Modified (0ms)
+
+
+Started GET "/assets/users.css?body=1" for 127.0.0.1 at 2016-11-16 14:20:50 +0200
+Served asset /users.css - 304 Not Modified (0ms)
+
+
+Started GET "/assets/jquery.js?body=1" for 127.0.0.1 at 2016-11-16 14:20:50 +0200
+Served asset /jquery.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/users.js?body=1" for 127.0.0.1 at 2016-11-16 14:20:50 +0200
+Served asset /users.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/jquery_ujs.js?body=1" for 127.0.0.1 at 2016-11-16 14:20:50 +0200
+Served asset /jquery_ujs.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/application.js?body=1" for 127.0.0.1 at 2016-11-16 14:20:50 +0200
+Served asset /application.js - 304 Not Modified (0ms)
+
+
+Started GET "/users" for 127.0.0.1 at 2016-11-16 14:20:53 +0200
+Processing by UsersController#index as HTML
+  [1m[35mUser Load (0.1ms)[0m  SELECT "users".* FROM "users" 
+  Rendered users/index.html.erb within layouts/application (1.2ms)
+Completed 200 OK in 4ms (Views: 3.4ms | ActiveRecord: 0.1ms)
+
+
+Started GET "/assets/application.css?body=1" for 127.0.0.1 at 2016-11-16 14:20:53 +0200
+Served asset /application.css - 304 Not Modified (0ms)
+
+
+Started GET "/assets/scaffolds.css?body=1" for 127.0.0.1 at 2016-11-16 14:20:53 +0200
+Served asset /scaffolds.css - 304 Not Modified (0ms)
+
+
+Started GET "/assets/jquery_ujs.js?body=1" for 127.0.0.1 at 2016-11-16 14:20:53 +0200
+Served asset /jquery_ujs.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/users.css?body=1" for 127.0.0.1 at 2016-11-16 14:20:53 +0200
+Served asset /users.css - 304 Not Modified (1ms)
+
+
+Started GET "/assets/users.js?body=1" for 127.0.0.1 at 2016-11-16 14:20:53 +0200
+Served asset /users.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/application.js?body=1" for 127.0.0.1 at 2016-11-16 14:20:53 +0200
+Served asset /application.js - 304 Not Modified (1ms)
+
+
+Started GET "/assets/jquery.js?body=1" for 127.0.0.1 at 2016-11-16 14:20:53 +0200
+Served asset /jquery.js - 304 Not Modified (0ms)
+
+
+Started DELETE "/users/2" for 127.0.0.1 at 2016-11-16 14:20:58 +0200
+Processing by UsersController#destroy as HTML
+  Parameters: {"authenticity_token"=>"30CbzjM78+IsGNtSM6SIYzGWtHTrORpwH6mvV2NKuY4=", "id"=>"2"}
+  [1m[36mUser Load (0.1ms)[0m  [1mSELECT "users".* FROM "users" WHERE "users"."id" = ? LIMIT 1[0m  [["id", "2"]]
+  [1m[35m (0.0ms)[0m  begin transaction
+  [1m[36mSQL (0.2ms)[0m  [1mDELETE FROM "users" WHERE "users"."id" = ?[0m  [["id", 2]]
+  [1m[35m (150.8ms)[0m  commit transaction
+Redirected to http://localhost:3000/users
+Completed 302 Found in 154ms (ActiveRecord: 151.1ms)
+
+
+Started GET "/users" for 127.0.0.1 at 2016-11-16 14:20:58 +0200
+Processing by UsersController#index as HTML
+  [1m[36mUser Load (0.1ms)[0m  [1mSELECT "users".* FROM "users" [0m
+  Rendered users/index.html.erb within layouts/application (0.8ms)
+Completed 200 OK in 4ms (Views: 3.4ms | ActiveRecord: 0.1ms)
+
+
+Started GET "/assets/application.css?body=1" for 127.0.0.1 at 2016-11-16 14:20:58 +0200
+Served asset /application.css - 304 Not Modified (3ms)
+
+
+Started GET "/assets/scaffolds.css?body=1" for 127.0.0.1 at 2016-11-16 14:20:58 +0200
+Served asset /scaffolds.css - 304 Not Modified (0ms)
+
+
+Started GET "/assets/users.css?body=1" for 127.0.0.1 at 2016-11-16 14:20:58 +0200
+Served asset /users.css - 304 Not Modified (0ms)
+
+
+Started GET "/assets/users.js?body=1" for 127.0.0.1 at 2016-11-16 14:20:58 +0200
+Served asset /users.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/jquery.js?body=1" for 127.0.0.1 at 2016-11-16 14:20:59 +0200
+Served asset /jquery.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/jquery_ujs.js?body=1" for 127.0.0.1 at 2016-11-16 14:20:59 +0200
+Served asset /jquery_ujs.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/application.js?body=1" for 127.0.0.1 at 2016-11-16 14:20:59 +0200
+Served asset /application.js - 304 Not Modified (0ms)
+[2016-11-16 14:53:20] WARN  Could not determine content-length of response body. Set content-length of the response or set Response#chunked = true
+[2016-11-16 14:53:20] WARN  Could not determine content-length of response body. Set content-length of the response or set Response#chunked = true
+[2016-11-16 14:53:20] WARN  Could not determine content-length of response body. Set content-length of the response or set Response#chunked = true
+[2016-11-16 14:53:20] WARN  Could not determine content-length of response body. Set content-length of the response or set Response#chunked = true
+[2016-11-16 14:53:20] WARN  Could not determine content-length of response body. Set content-length of the response or set Response#chunked = true
+[2016-11-16 14:53:20] WARN  Could not determine content-length of response body. Set content-length of the response or set Response#chunked = true
+[2016-11-16 14:53:20] WARN  Could not determine content-length of response body. Set content-length of the response or set Response#chunked = true
+[2016-11-16 14:53:20] WARN  Could not determine content-length of response body. Set content-length of the response or set Response#chunked = true
+[2016-11-16 14:53:24] WARN  Could not determine content-length of response body. Set content-length of the response or set Response#chunked = true
+[2016-11-16 14:53:24] WARN  Could not determine content-length of response body. Set content-length of the response or set Response#chunked = true
+[2016-11-16 14:53:24] WARN  Could not determine content-length of response body. Set content-length of the response or set Response#chunked = true
+[2016-11-16 14:53:24] WARN  Could not determine content-length of response body. Set content-length of the response or set Response#chunked = true
+[2016-11-16 14:53:24] WARN  Could not determine content-length of response body. Set content-length of the response or set Response#chunked = true
+[2016-11-16 14:53:24] WARN  Could not determine content-length of response body. Set content-length of the response or set Response#chunked = true
+[2016-11-16 14:53:24] WARN  Could not determine content-length of response body. Set content-length of the response or set Response#chunked = true
+[2016-11-16 14:53:27] WARN  Could not determine content-length of response body. Set content-length of the response or set Response#chunked = true
+[2016-11-16 14:53:27] WARN  Could not determine content-length of response body. Set content-length of the response or set Response#chunked = true
+[2016-11-16 14:53:27] WARN  Could not determine content-length of response body. Set content-length of the response or set Response#chunked = true
+[2016-11-16 14:53:27] WARN  Could not determine content-length of response body. Set content-length of the response or set Response#chunked = true
+[2016-11-16 14:53:27] WARN  Could not determine content-length of response body. Set content-length of the response or set Response#chunked = true
+[2016-11-16 14:53:27] WARN  Could not determine content-length of response body. Set content-length of the response or set Response#chunked = true
+[2016-11-16 14:53:27] WARN  Could not determine content-length of response body. Set content-length of the response or set Response#chunked = true
+[2016-11-16 14:53:45] WARN  Could not determine content-length of response body. Set content-length of the response or set Response#chunked = true
+[2016-11-16 14:53:45] WARN  Could not determine content-length of response body. Set content-length of the response or set Response#chunked = true
+[2016-11-16 14:53:45] WARN  Could not determine content-length of response body. Set content-length of the response or set Response#chunked = true
+[2016-11-16 14:53:45] WARN  Could not determine content-length of response body. Set content-length of the response or set Response#chunked = true
+[2016-11-16 14:53:45] WARN  Could not determine content-length of response body. Set content-length of the response or set Response#chunked = true
+[2016-11-16 14:53:45] WARN  Could not determine content-length of response body. Set content-length of the response or set Response#chunked = true
+[2016-11-16 14:53:45] WARN  Could not determine content-length of response body. Set content-length of the response or set Response#chunked = true
+[2016-11-16 14:53:48] WARN  Could not determine content-length of response body. Set content-length of the response or set Response#chunked = true
+  [1m[36m (0.1ms)[0m  [1mSELECT "schema_migrations"."version" FROM "schema_migrations" [0m
+Migrating to CreateUsers (20161116114227)
+Migrating to CreateMicroposts (20161116124823)
+  [1m[35m (0.0ms)[0m  select sqlite_version(*)
+  [1m[36m (0.0ms)[0m  [1mbegin transaction[0m
+  [1m[35m (0.4ms)[0m  CREATE TABLE "microposts" ("id" INTEGER PRIMARY KEY AUTOINCREMENT NOT NULL, "content" varchar(255), "user_id" integer, "created_at" datetime NOT NULL, "updated_at" datetime NOT NULL) 
+  [1m[36m (0.1ms)[0m  [1mINSERT INTO "schema_migrations" ("version") VALUES ('20161116124823')[0m
+  [1m[35m (5.1ms)[0m  commit transaction
+  [1m[36m (0.1ms)[0m  [1mselect sqlite_version(*)[0m
+  [1m[35m (0.2ms)[0m  SELECT "schema_migrations"."version" FROM "schema_migrations" 
+  [1m[36m (0.1ms)[0m  [1mPRAGMA index_list("microposts")[0m
+  [1m[35m (0.0ms)[0m  PRAGMA index_list("users")
+
+
+Started GET "/users/1" for 127.0.0.1 at 2016-11-16 14:53:20 +0200
+Processing by UsersController#show as HTML
+  Parameters: {"id"=>"1"}
+  [1m[35mUser Load (0.1ms)[0m  SELECT "users".* FROM "users" WHERE "users"."id" = ? LIMIT 1  [["id", "1"]]
+  Rendered users/show.html.erb within layouts/application (0.7ms)
+Warning. Error encountered while saving cache /home/ruser/Desktop/rails_projects/scaffold_app/tmp/cache/sass/fa9fc927d7aeb59c6e941c6c60fa65275b871431/microposts.css.scssc: can't dump anonymous class #<Class:0x0000000444cc68>
+Compiled microposts.css  (1ms)  (pid 13442)
+Compiled application.css  (6ms)  (pid 13442)
+Compiled microposts.js  (183ms)  (pid 13442)
+Compiled application.js  (225ms)  (pid 13442)
+Completed 200 OK in 258ms (Views: 252.5ms | ActiveRecord: 0.5ms)
+
+
+Started GET "/assets/application.css?body=1" for 127.0.0.1 at 2016-11-16 14:53:20 +0200
+Served asset /application.css - 304 Not Modified (7ms)
+
+
+Started GET "/assets/microposts.css?body=1" for 127.0.0.1 at 2016-11-16 14:53:20 +0200
+Served asset /microposts.css - 200 OK (1ms)
+
+
+Started GET "/assets/microposts.js?body=1" for 127.0.0.1 at 2016-11-16 14:53:20 +0200
+Served asset /microposts.js - 200 OK (2ms)
+
+
+Started GET "/assets/scaffolds.css?body=1" for 127.0.0.1 at 2016-11-16 14:53:20 +0200
+Served asset /scaffolds.css - 304 Not Modified (0ms)
+
+
+Started GET "/assets/users.css?body=1" for 127.0.0.1 at 2016-11-16 14:53:20 +0200
+Served asset /users.css - 304 Not Modified (0ms)
+
+
+Started GET "/assets/jquery.js?body=1" for 127.0.0.1 at 2016-11-16 14:53:20 +0200
+Served asset /jquery.js - 304 Not Modified (1ms)
+
+
+Started GET "/assets/users.js?body=1" for 127.0.0.1 at 2016-11-16 14:53:20 +0200
+Served asset /users.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/jquery_ujs.js?body=1" for 127.0.0.1 at 2016-11-16 14:53:20 +0200
+Served asset /jquery_ujs.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/application.js?body=1" for 127.0.0.1 at 2016-11-16 14:53:20 +0200
+Served asset /application.js - 304 Not Modified (4ms)
+
+
+Started GET "/microposts" for 127.0.0.1 at 2016-11-16 14:53:24 +0200
+Processing by MicropostsController#index as HTML
+  [1m[36mMicropost Load (0.1ms)[0m  [1mSELECT "microposts".* FROM "microposts" [0m
+  Rendered microposts/index.html.erb within layouts/application (0.7ms)
+Completed 200 OK in 6ms (Views: 4.3ms | ActiveRecord: 0.3ms)
+
+
+Started GET "/assets/application.css?body=1" for 127.0.0.1 at 2016-11-16 14:53:24 +0200
+Served asset /application.css - 304 Not Modified (0ms)
+
+
+Started GET "/assets/scaffolds.css?body=1" for 127.0.0.1 at 2016-11-16 14:53:24 +0200
+Served asset /scaffolds.css - 304 Not Modified (0ms)
+
+
+Started GET "/assets/jquery.js?body=1" for 127.0.0.1 at 2016-11-16 14:53:24 +0200
+Served asset /jquery.js - 304 Not Modified (1ms)
+
+
+Started GET "/assets/users.js?body=1" for 127.0.0.1 at 2016-11-16 14:53:24 +0200
+Served asset /users.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/jquery_ujs.js?body=1" for 127.0.0.1 at 2016-11-16 14:53:24 +0200
+Served asset /jquery_ujs.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/users.css?body=1" for 127.0.0.1 at 2016-11-16 14:53:24 +0200
+Served asset /users.css - 304 Not Modified (0ms)
+
+
+Started GET "/assets/application.js?body=1" for 127.0.0.1 at 2016-11-16 14:53:24 +0200
+Served asset /application.js - 304 Not Modified (0ms)
+
+
+Started GET "/microposts/new" for 127.0.0.1 at 2016-11-16 14:53:27 +0200
+Processing by MicropostsController#new as HTML
+  Rendered microposts/_form.html.erb (2.4ms)
+  Rendered microposts/new.html.erb within layouts/application (3.3ms)
+Completed 200 OK in 11ms (Views: 6.8ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/assets/scaffolds.css?body=1" for 127.0.0.1 at 2016-11-16 14:53:27 +0200
+Served asset /scaffolds.css - 304 Not Modified (0ms)
+
+
+Started GET "/assets/application.css?body=1" for 127.0.0.1 at 2016-11-16 14:53:27 +0200
+Served asset /application.css - 304 Not Modified (2ms)
+
+
+Started GET "/assets/users.css?body=1" for 127.0.0.1 at 2016-11-16 14:53:27 +0200
+Served asset /users.css - 304 Not Modified (0ms)
+
+
+Started GET "/assets/users.js?body=1" for 127.0.0.1 at 2016-11-16 14:53:27 +0200
+Served asset /users.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/jquery_ujs.js?body=1" for 127.0.0.1 at 2016-11-16 14:53:27 +0200
+Served asset /jquery_ujs.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/jquery.js?body=1" for 127.0.0.1 at 2016-11-16 14:53:27 +0200
+Served asset /jquery.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/application.js?body=1" for 127.0.0.1 at 2016-11-16 14:53:27 +0200
+Served asset /application.js - 304 Not Modified (0ms)
+
+
+Started POST "/microposts" for 127.0.0.1 at 2016-11-16 14:53:45 +0200
+Processing by MicropostsController#create as HTML
+  Parameters: {"utf8"=>"✓", "authenticity_token"=>"30CbzjM78+IsGNtSM6SIYzGWtHTrORpwH6mvV2NKuY4=", "micropost"=>{"content"=>"hello rails", "user_id"=>"1"}, "commit"=>"Create Micropost"}
+  [1m[35m (0.1ms)[0m  begin transaction
+  [1m[36mSQL (0.4ms)[0m  [1mINSERT INTO "microposts" ("content", "created_at", "updated_at", "user_id") VALUES (?, ?, ?, ?)[0m  [["content", "hello rails"], ["created_at", Wed, 16 Nov 2016 12:53:45 UTC +00:00], ["updated_at", Wed, 16 Nov 2016 12:53:45 UTC +00:00], ["user_id", 1]]
+  [1m[35m (3.3ms)[0m  commit transaction
+Redirected to http://localhost:3000/microposts/1
+Completed 302 Found in 7ms (ActiveRecord: 3.7ms)
+
+
+Started GET "/microposts/1" for 127.0.0.1 at 2016-11-16 14:53:45 +0200
+Processing by MicropostsController#show as HTML
+  Parameters: {"id"=>"1"}
+  [1m[36mMicropost Load (0.2ms)[0m  [1mSELECT "microposts".* FROM "microposts" WHERE "microposts"."id" = ? LIMIT 1[0m  [["id", "1"]]
+  Rendered microposts/show.html.erb within layouts/application (0.9ms)
+Completed 200 OK in 6ms (Views: 4.7ms | ActiveRecord: 0.2ms)
+
+
+Started GET "/assets/application.css?body=1" for 127.0.0.1 at 2016-11-16 14:53:45 +0200
+Served asset /application.css - 304 Not Modified (0ms)
+
+
+Started GET "/assets/users.css?body=1" for 127.0.0.1 at 2016-11-16 14:53:45 +0200
+Served asset /users.css - 304 Not Modified (0ms)
+
+
+Started GET "/assets/scaffolds.css?body=1" for 127.0.0.1 at 2016-11-16 14:53:45 +0200
+Served asset /scaffolds.css - 304 Not Modified (0ms)
+
+
+Started GET "/assets/application.js?body=1" for 127.0.0.1 at 2016-11-16 14:53:45 +0200
+Served asset /application.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/jquery.js?body=1" for 127.0.0.1 at 2016-11-16 14:53:45 +0200
+Served asset /jquery.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/jquery_ujs.js?body=1" for 127.0.0.1 at 2016-11-16 14:53:45 +0200
+Served asset /jquery_ujs.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/users.js?body=1" for 127.0.0.1 at 2016-11-16 14:53:45 +0200
+Served asset /users.js - 304 Not Modified (0ms)
+
+
+Started GET "/microposts" for 127.0.0.1 at 2016-11-16 14:53:48 +0200
+Processing by MicropostsController#index as HTML
+  [1m[35mMicropost Load (0.1ms)[0m  SELECT "microposts".* FROM "microposts" 
+  Rendered microposts/index.html.erb within layouts/application (0.8ms)
+Completed 200 OK in 5ms (Views: 4.3ms | ActiveRecord: 0.1ms)
+
+
+Started GET "/assets/application.css?body=1" for 127.0.0.1 at 2016-11-16 14:53:48 +0200
+Served asset /application.css - 304 Not Modified (4ms)
+
+
+Started GET "/assets/scaffolds.css?body=1" for 127.0.0.1 at 2016-11-16 14:53:48 +0200
+Served asset /scaffolds.css - 304 Not Modified (0ms)
+[2016-11-16 14:53:48] WARN  Could not determine content-length of response body. Set content-length of the response or set Response#chunked = true
+[2016-11-16 14:53:48] WARN  Could not determine content-length of response body. Set content-length of the response or set Response#chunked = true
+[2016-11-16 14:53:48] WARN  Could not determine content-length of response body. Set content-length of the response or set Response#chunked = true
+[2016-11-16 14:53:48] WARN  Could not determine content-length of response body. Set content-length of the response or set Response#chunked = true
+[2016-11-16 14:53:48] WARN  Could not determine content-length of response body. Set content-length of the response or set Response#chunked = true
+[2016-11-16 14:53:48] WARN  Could not determine content-length of response body. Set content-length of the response or set Response#chunked = true
+[2016-11-16 14:53:55] WARN  Could not determine content-length of response body. Set content-length of the response or set Response#chunked = true
+[2016-11-16 14:53:55] WARN  Could not determine content-length of response body. Set content-length of the response or set Response#chunked = true
+[2016-11-16 14:53:55] WARN  Could not determine content-length of response body. Set content-length of the response or set Response#chunked = true
+[2016-11-16 14:53:55] WARN  Could not determine content-length of response body. Set content-length of the response or set Response#chunked = true
+[2016-11-16 14:53:55] WARN  Could not determine content-length of response body. Set content-length of the response or set Response#chunked = true
+[2016-11-16 14:53:55] WARN  Could not determine content-length of response body. Set content-length of the response or set Response#chunked = true
+[2016-11-16 14:53:55] WARN  Could not determine content-length of response body. Set content-length of the response or set Response#chunked = true
+[2016-11-16 14:53:55] WARN  Could not determine content-length of response body. Set content-length of the response or set Response#chunked = true
+[2016-11-16 14:53:55] WARN  Could not determine content-length of response body. Set content-length of the response or set Response#chunked = true
+[2016-11-16 14:53:58] WARN  Could not determine content-length of response body. Set content-length of the response or set Response#chunked = true
+[2016-11-16 14:53:58] WARN  Could not determine content-length of response body. Set content-length of the response or set Response#chunked = true
+[2016-11-16 14:53:58] WARN  Could not determine content-length of response body. Set content-length of the response or set Response#chunked = true
+[2016-11-16 14:53:58] WARN  Could not determine content-length of response body. Set content-length of the response or set Response#chunked = true
+[2016-11-16 14:53:58] WARN  Could not determine content-length of response body. Set content-length of the response or set Response#chunked = true
+[2016-11-16 14:53:58] WARN  Could not determine content-length of response body. Set content-length of the response or set Response#chunked = true
+[2016-11-16 14:53:58] WARN  Could not determine content-length of response body. Set content-length of the response or set Response#chunked = true
+[2016-11-16 14:53:58] WARN  Could not determine content-length of response body. Set content-length of the response or set Response#chunked = true
+[2016-11-16 14:53:58] WARN  Could not determine content-length of response body. Set content-length of the response or set Response#chunked = true
+[2016-11-16 14:53:58] WARN  Could not determine content-length of response body. Set content-length of the response or set Response#chunked = true
+[2016-11-16 14:56:12] WARN  Could not determine content-length of response body. Set content-length of the response or set Response#chunked = true
+[2016-11-16 14:56:13] WARN  Could not determine content-length of response body. Set content-length of the response or set Response#chunked = true
+[2016-11-16 14:56:13] WARN  Could not determine content-length of response body. Set content-length of the response or set Response#chunked = true
+[2016-11-16 14:56:13] WARN  Could not determine content-length of response body. Set content-length of the response or set Response#chunked = true
+[2016-11-16 14:56:13] WARN  Could not determine content-length of response body. Set content-length of the response or set Response#chunked = true
+[2016-11-16 14:56:13] WARN  Could not determine content-length of response body. Set content-length of the response or set Response#chunked = true
+[2016-11-16 14:56:13] WARN  Could not determine content-length of response body. Set content-length of the response or set Response#chunked = true
+[2016-11-16 14:56:13] WARN  Could not determine content-length of response body. Set content-length of the response or set Response#chunked = true
+[2016-11-16 14:56:13] WARN  Could not determine content-length of response body. Set content-length of the response or set Response#chunked = true
+[2016-11-16 14:56:13] WARN  Could not determine content-length of response body. Set content-length of the response or set Response#chunked = true
+[2016-11-16 14:56:22] WARN  Could not determine content-length of response body. Set content-length of the response or set Response#chunked = true
+[2016-11-16 14:56:22] WARN  Could not determine content-length of response body. Set content-length of the response or set Response#chunked = true
+[2016-11-16 14:56:22] WARN  Could not determine content-length of response body. Set content-length of the response or set Response#chunked = true
+[2016-11-16 14:56:22] WARN  Could not determine content-length of response body. Set content-length of the response or set Response#chunked = true
+[2016-11-16 14:56:22] WARN  Could not determine content-length of response body. Set content-length of the response or set Response#chunked = true
+[2016-11-16 14:56:22] WARN  Could not determine content-length of response body. Set content-length of the response or set Response#chunked = true
+[2016-11-16 14:56:22] WARN  Could not determine content-length of response body. Set content-length of the response or set Response#chunked = true
+[2016-11-16 14:56:22] WARN  Could not determine content-length of response body. Set content-length of the response or set Response#chunked = true
+[2016-11-16 14:56:22] WARN  Could not determine content-length of response body. Set content-length of the response or set Response#chunked = true
+
+
+Started GET "/assets/users.css?body=1" for 127.0.0.1 at 2016-11-16 14:53:48 +0200
+Served asset /users.css - 304 Not Modified (0ms)
+
+
+Started GET "/assets/jquery.js?body=1" for 127.0.0.1 at 2016-11-16 14:53:48 +0200
+Served asset /jquery.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/users.js?body=1" for 127.0.0.1 at 2016-11-16 14:53:48 +0200
+Served asset /users.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/jquery_ujs.js?body=1" for 127.0.0.1 at 2016-11-16 14:53:48 +0200
+Served asset /jquery_ujs.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/application.js?body=1" for 127.0.0.1 at 2016-11-16 14:53:48 +0200
+Served asset /application.js - 304 Not Modified (20ms)
+
+
+Started GET "/microposts/1" for 127.0.0.1 at 2016-11-16 14:53:55 +0200
+Processing by MicropostsController#show as HTML
+  Parameters: {"id"=>"1"}
+  [1m[36mMicropost Load (0.1ms)[0m  [1mSELECT "microposts".* FROM "microposts" WHERE "microposts"."id" = ? LIMIT 1[0m  [["id", "1"]]
+  Rendered microposts/show.html.erb within layouts/application (0.6ms)
+Completed 200 OK in 5ms (Views: 4.3ms | ActiveRecord: 0.1ms)
+
+
+Started GET "/assets/application.css?body=1" for 127.0.0.1 at 2016-11-16 14:53:55 +0200
+Served asset /application.css - 304 Not Modified (1ms)
+
+
+Started GET "/assets/scaffolds.css?body=1" for 127.0.0.1 at 2016-11-16 14:53:55 +0200
+Served asset /scaffolds.css - 304 Not Modified (0ms)
+
+
+Started GET "/assets/microposts.css?body=1" for 127.0.0.1 at 2016-11-16 14:53:55 +0200
+Served asset /microposts.css - 304 Not Modified (0ms)
+
+
+Started GET "/assets/jquery.js?body=1" for 127.0.0.1 at 2016-11-16 14:53:55 +0200
+Served asset /jquery.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/users.css?body=1" for 127.0.0.1 at 2016-11-16 14:53:55 +0200
+Served asset /users.css - 304 Not Modified (0ms)
+
+
+Started GET "/assets/jquery_ujs.js?body=1" for 127.0.0.1 at 2016-11-16 14:53:55 +0200
+Served asset /jquery_ujs.js - 304 Not Modified (1ms)
+
+
+Started GET "/assets/microposts.js?body=1" for 127.0.0.1 at 2016-11-16 14:53:55 +0200
+Served asset /microposts.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/users.js?body=1" for 127.0.0.1 at 2016-11-16 14:53:55 +0200
+Served asset /users.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/application.js?body=1" for 127.0.0.1 at 2016-11-16 14:53:55 +0200
+Served asset /application.js - 304 Not Modified (0ms)
+
+
+Started GET "/microposts" for 127.0.0.1 at 2016-11-16 14:53:58 +0200
+Processing by MicropostsController#index as HTML
+  [1m[35mMicropost Load (0.1ms)[0m  SELECT "microposts".* FROM "microposts" 
+  Rendered microposts/index.html.erb within layouts/application (0.8ms)
+Completed 200 OK in 5ms (Views: 4.0ms | ActiveRecord: 0.1ms)
+
+
+Started GET "/assets/application.css?body=1" for 127.0.0.1 at 2016-11-16 14:53:58 +0200
+Served asset /application.css - 304 Not Modified (0ms)
+
+
+Started GET "/assets/microposts.css?body=1" for 127.0.0.1 at 2016-11-16 14:53:58 +0200
+Served asset /microposts.css - 304 Not Modified (0ms)
+
+
+Started GET "/assets/scaffolds.css?body=1" for 127.0.0.1 at 2016-11-16 14:53:58 +0200
+Served asset /scaffolds.css - 304 Not Modified (0ms)
+
+
+Started GET "/assets/users.css?body=1" for 127.0.0.1 at 2016-11-16 14:53:58 +0200
+Served asset /users.css - 304 Not Modified (0ms)
+
+
+Started GET "/assets/jquery.js?body=1" for 127.0.0.1 at 2016-11-16 14:53:58 +0200
+Served asset /jquery.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/jquery_ujs.js?body=1" for 127.0.0.1 at 2016-11-16 14:53:58 +0200
+Served asset /jquery_ujs.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/users.js?body=1" for 127.0.0.1 at 2016-11-16 14:53:58 +0200
+Served asset /users.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/application.js?body=1" for 127.0.0.1 at 2016-11-16 14:53:58 +0200
+Served asset /application.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/microposts.js?body=1" for 127.0.0.1 at 2016-11-16 14:53:58 +0200
+Served asset /microposts.js - 304 Not Modified (0ms)
+
+
+Started GET "/microposts/new" for 127.0.0.1 at 2016-11-16 14:56:12 +0200
+Processing by MicropostsController#new as HTML
+  Rendered microposts/_form.html.erb (1.8ms)
+  Rendered microposts/new.html.erb within layouts/application (2.3ms)
+Completed 200 OK in 6ms (Views: 5.9ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/assets/application.css?body=1" for 127.0.0.1 at 2016-11-16 14:56:13 +0200
+Served asset /application.css - 304 Not Modified (0ms)
+
+
+Started GET "/assets/microposts.css?body=1" for 127.0.0.1 at 2016-11-16 14:56:13 +0200
+Served asset /microposts.css - 304 Not Modified (0ms)
+
+
+Started GET "/assets/users.css?body=1" for 127.0.0.1 at 2016-11-16 14:56:13 +0200
+Served asset /users.css - 304 Not Modified (0ms)
+
+
+Started GET "/assets/scaffolds.css?body=1" for 127.0.0.1 at 2016-11-16 14:56:13 +0200
+Served asset /scaffolds.css - 304 Not Modified (0ms)
+
+
+Started GET "/assets/jquery_ujs.js?body=1" for 127.0.0.1 at 2016-11-16 14:56:13 +0200
+Served asset /jquery_ujs.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/microposts.js?body=1" for 127.0.0.1 at 2016-11-16 14:56:13 +0200
+Served asset /microposts.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/application.js?body=1" for 127.0.0.1 at 2016-11-16 14:56:13 +0200
+Served asset /application.js - 304 Not Modified (3ms)
+
+
+Started GET "/assets/users.js?body=1" for 127.0.0.1 at 2016-11-16 14:56:13 +0200
+Served asset /users.js - 304 Not Modified (18ms)
+
+
+Started GET "/assets/jquery.js?body=1" for 127.0.0.1 at 2016-11-16 14:56:13 +0200
+Served asset /jquery.js - 304 Not Modified (0ms)
+
+
+Started POST "/microposts" for 127.0.0.1 at 2016-11-16 14:56:22 +0200
+Processing by MicropostsController#create as HTML
+  Parameters: {"utf8"=>"✓", "authenticity_token"=>"30CbzjM78+IsGNtSM6SIYzGWtHTrORpwH6mvV2NKuY4=", "micropost"=>{"content"=>"hello darkness", "user_id"=>"33"}, "commit"=>"Create Micropost"}
+  [1m[36m (0.1ms)[0m  [1mbegin transaction[0m
+  [1m[35mSQL (0.3ms)[0m  INSERT INTO "microposts" ("content", "created_at", "updated_at", "user_id") VALUES (?, ?, ?, ?)  [["content", "hello darkness"], ["created_at", Wed, 16 Nov 2016 12:56:22 UTC +00:00], ["updated_at", Wed, 16 Nov 2016 12:56:22 UTC +00:00], ["user_id", 33]]
+  [1m[36m (3.4ms)[0m  [1mcommit transaction[0m
+Redirected to http://localhost:3000/microposts/2
+Completed 302 Found in 6ms (ActiveRecord: 3.7ms)
+
+
+Started GET "/microposts/2" for 127.0.0.1 at 2016-11-16 14:56:22 +0200
+Processing by MicropostsController#show as HTML
+  Parameters: {"id"=>"2"}
+  [1m[35mMicropost Load (0.1ms)[0m  SELECT "microposts".* FROM "microposts" WHERE "microposts"."id" = ? LIMIT 1  [["id", "2"]]
+  Rendered microposts/show.html.erb within layouts/application (0.4ms)
+Completed 200 OK in 4ms (Views: 3.4ms | ActiveRecord: 0.1ms)
+
+
+Started GET "/assets/application.css?body=1" for 127.0.0.1 at 2016-11-16 14:56:22 +0200
+Served asset /application.css - 304 Not Modified (3ms)
+
+
+Started GET "/assets/microposts.css?body=1" for 127.0.0.1 at 2016-11-16 14:56:22 +0200
+Served asset /microposts.css - 304 Not Modified (0ms)
+
+
+Started GET "/assets/jquery.js?body=1" for 127.0.0.1 at 2016-11-16 14:56:22 +0200
+Served asset /jquery.js - 304 Not Modified (2ms)
+
+
+Started GET "/assets/users.css?body=1" for 127.0.0.1 at 2016-11-16 14:56:22 +0200
+Served asset /users.css - 304 Not Modified (0ms)
+
+
+Started GET "/assets/scaffolds.css?body=1" for 127.0.0.1 at 2016-11-16 14:56:22 +0200
+Served asset /scaffolds.css - 304 Not Modified (0ms)
+
+
+Started GET "/assets/jquery_ujs.js?body=1" for 127.0.0.1 at 2016-11-16 14:56:22 +0200
+Served asset /jquery_ujs.js - 304 Not Modified (3ms)
+
+
+Started GET "/assets/users.js?body=1" for 127.0.0.1 at 2016-11-16 14:56:22 +0200
+Served asset /users.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/microposts.js?body=1" for 127.0.0.1 at 2016-11-16 14:56:22 +0200
+Served asset /microposts.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/application.js?body=1" for 127.0.0.1 at 2016-11-16 14:56:22 +0200
+Served asset /application.js - 304 Not Modified (1ms)
+
+
+Started GET "/microposts" for 127.0.0.1 at 2016-11-16 14:56:24 +0200
+Processing by MicropostsController#index as HTML
+  [1m[36mMicropost Load (0.1ms)[0m  [1mSELECT "microposts".* FROM "microposts" [0m
+  Rendered microposts/index.html.erb within layouts/application (1.1ms)
+Completed 200 OK in 5ms (Views: 4.3ms | ActiveRecord: 0.1ms)
+[2016-11-16 14:56:24] WARN  Could not determine content-length of response body. Set content-length of the response or set Response#chunked = true
+[2016-11-16 14:56:24] WARN  Could not determine content-length of response body. Set content-length of the response or set Response#chunked = true
+[2016-11-16 14:56:24] WARN  Could not determine content-length of response body. Set content-length of the response or set Response#chunked = true
+[2016-11-16 14:56:24] WARN  Could not determine content-length of response body. Set content-length of the response or set Response#chunked = true
+[2016-11-16 14:56:24] WARN  Could not determine content-length of response body. Set content-length of the response or set Response#chunked = true
+[2016-11-16 14:56:24] WARN  Could not determine content-length of response body. Set content-length of the response or set Response#chunked = true
+[2016-11-16 14:56:24] WARN  Could not determine content-length of response body. Set content-length of the response or set Response#chunked = true
+[2016-11-16 14:56:24] WARN  Could not determine content-length of response body. Set content-length of the response or set Response#chunked = true
+[2016-11-16 14:56:24] WARN  Could not determine content-length of response body. Set content-length of the response or set Response#chunked = true
+[2016-11-16 14:56:27] WARN  Could not determine content-length of response body. Set content-length of the response or set Response#chunked = true
+[2016-11-16 14:56:27] WARN  Could not determine content-length of response body. Set content-length of the response or set Response#chunked = true
+[2016-11-16 14:56:27] WARN  Could not determine content-length of response body. Set content-length of the response or set Response#chunked = true
+[2016-11-16 14:56:27] WARN  Could not determine content-length of response body. Set content-length of the response or set Response#chunked = true
+[2016-11-16 14:56:27] WARN  Could not determine content-length of response body. Set content-length of the response or set Response#chunked = true
+[2016-11-16 14:56:27] WARN  Could not determine content-length of response body. Set content-length of the response or set Response#chunked = true
+[2016-11-16 14:56:27] WARN  Could not determine content-length of response body. Set content-length of the response or set Response#chunked = true
+[2016-11-16 14:56:27] WARN  Could not determine content-length of response body. Set content-length of the response or set Response#chunked = true
+[2016-11-16 14:56:27] WARN  Could not determine content-length of response body. Set content-length of the response or set Response#chunked = true
+[2016-11-16 14:56:27] WARN  Could not determine content-length of response body. Set content-length of the response or set Response#chunked = true
+[2016-11-16 14:56:41] WARN  Could not determine content-length of response body. Set content-length of the response or set Response#chunked = true
+[2016-11-16 14:56:41] WARN  Could not determine content-length of response body. Set content-length of the response or set Response#chunked = true
+[2016-11-16 14:56:41] WARN  Could not determine content-length of response body. Set content-length of the response or set Response#chunked = true
+[2016-11-16 14:56:41] WARN  Could not determine content-length of response body. Set content-length of the response or set Response#chunked = true
+[2016-11-16 14:56:41] WARN  Could not determine content-length of response body. Set content-length of the response or set Response#chunked = true
+[2016-11-16 14:56:41] WARN  Could not determine content-length of response body. Set content-length of the response or set Response#chunked = true
+[2016-11-16 14:56:41] WARN  Could not determine content-length of response body. Set content-length of the response or set Response#chunked = true
+[2016-11-16 14:56:41] WARN  Could not determine content-length of response body. Set content-length of the response or set Response#chunked = true
+[2016-11-16 14:56:41] WARN  Could not determine content-length of response body. Set content-length of the response or set Response#chunked = true
+[2016-11-16 14:56:43] WARN  Could not determine content-length of response body. Set content-length of the response or set Response#chunked = true
+[2016-11-16 14:56:43] WARN  Could not determine content-length of response body. Set content-length of the response or set Response#chunked = true
+[2016-11-16 14:56:43] WARN  Could not determine content-length of response body. Set content-length of the response or set Response#chunked = true
+[2016-11-16 14:56:43] WARN  Could not determine content-length of response body. Set content-length of the response or set Response#chunked = true
+[2016-11-16 14:56:43] WARN  Could not determine content-length of response body. Set content-length of the response or set Response#chunked = true
+[2016-11-16 14:56:43] WARN  Could not determine content-length of response body. Set content-length of the response or set Response#chunked = true
+[2016-11-16 14:56:43] WARN  Could not determine content-length of response body. Set content-length of the response or set Response#chunked = true
+[2016-11-16 14:56:43] WARN  Could not determine content-length of response body. Set content-length of the response or set Response#chunked = true
+[2016-11-16 14:56:43] WARN  Could not determine content-length of response body. Set content-length of the response or set Response#chunked = true
+[2016-11-16 15:00:33] WARN  Could not determine content-length of response body. Set content-length of the response or set Response#chunked = true
+[2016-11-16 15:00:33] WARN  Could not determine content-length of response body. Set content-length of the response or set Response#chunked = true
+[2016-11-16 15:00:33] WARN  Could not determine content-length of response body. Set content-length of the response or set Response#chunked = true
+[2016-11-16 15:00:33] WARN  Could not determine content-length of response body. Set content-length of the response or set Response#chunked = true
+[2016-11-16 15:00:33] WARN  Could not determine content-length of response body. Set content-length of the response or set Response#chunked = true
+[2016-11-16 15:00:33] WARN  Could not determine content-length of response body. Set content-length of the response or set Response#chunked = true
+[2016-11-16 15:00:33] WARN  Could not determine content-length of response body. Set content-length of the response or set Response#chunked = true
+
+
+Started GET "/assets/application.css?body=1" for 127.0.0.1 at 2016-11-16 14:56:24 +0200
+Served asset /application.css - 304 Not Modified (0ms)
+
+
+Started GET "/assets/scaffolds.css?body=1" for 127.0.0.1 at 2016-11-16 14:56:24 +0200
+Served asset /scaffolds.css - 304 Not Modified (0ms)
+
+
+Started GET "/assets/microposts.css?body=1" for 127.0.0.1 at 2016-11-16 14:56:24 +0200
+Served asset /microposts.css - 304 Not Modified (0ms)
+
+
+Started GET "/assets/users.css?body=1" for 127.0.0.1 at 2016-11-16 14:56:24 +0200
+Served asset /users.css - 304 Not Modified (0ms)
+
+
+Started GET "/assets/jquery.js?body=1" for 127.0.0.1 at 2016-11-16 14:56:24 +0200
+Served asset /jquery.js - 304 Not Modified (1ms)
+
+
+Started GET "/assets/jquery_ujs.js?body=1" for 127.0.0.1 at 2016-11-16 14:56:24 +0200
+Served asset /jquery_ujs.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/microposts.js?body=1" for 127.0.0.1 at 2016-11-16 14:56:24 +0200
+Served asset /microposts.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/users.js?body=1" for 127.0.0.1 at 2016-11-16 14:56:24 +0200
+Served asset /users.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/application.js?body=1" for 127.0.0.1 at 2016-11-16 14:56:24 +0200
+Served asset /application.js - 304 Not Modified (1ms)
+
+
+Started GET "/microposts/new" for 127.0.0.1 at 2016-11-16 14:56:27 +0200
+Processing by MicropostsController#new as HTML
+  Rendered microposts/_form.html.erb (1.3ms)
+  Rendered microposts/new.html.erb within layouts/application (1.8ms)
+Completed 200 OK in 5ms (Views: 5.0ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/assets/application.css?body=1" for 127.0.0.1 at 2016-11-16 14:56:27 +0200
+Served asset /application.css - 304 Not Modified (2ms)
+
+
+Started GET "/assets/scaffolds.css?body=1" for 127.0.0.1 at 2016-11-16 14:56:27 +0200
+Served asset /scaffolds.css - 304 Not Modified (0ms)
+
+
+Started GET "/assets/users.css?body=1" for 127.0.0.1 at 2016-11-16 14:56:27 +0200
+Served asset /users.css - 304 Not Modified (0ms)
+
+
+Started GET "/assets/microposts.css?body=1" for 127.0.0.1 at 2016-11-16 14:56:27 +0200
+Served asset /microposts.css - 304 Not Modified (0ms)
+
+
+Started GET "/assets/jquery_ujs.js?body=1" for 127.0.0.1 at 2016-11-16 14:56:27 +0200
+Served asset /jquery_ujs.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/microposts.js?body=1" for 127.0.0.1 at 2016-11-16 14:56:27 +0200
+Served asset /microposts.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/jquery.js?body=1" for 127.0.0.1 at 2016-11-16 14:56:27 +0200
+Served asset /jquery.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/users.js?body=1" for 127.0.0.1 at 2016-11-16 14:56:27 +0200
+Served asset /users.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/application.js?body=1" for 127.0.0.1 at 2016-11-16 14:56:27 +0200
+Served asset /application.js - 304 Not Modified (0ms)
+
+
+Started POST "/microposts" for 127.0.0.1 at 2016-11-16 14:56:41 +0200
+Processing by MicropostsController#create as HTML
+  Parameters: {"utf8"=>"✓", "authenticity_token"=>"30CbzjM78+IsGNtSM6SIYzGWtHTrORpwH6mvV2NKuY4=", "micropost"=>{"content"=>"so long so longso longso longso longso longso longso longso long", "user_id"=>"12"}, "commit"=>"Create Micropost"}
+  [1m[35m (0.1ms)[0m  begin transaction
+  [1m[36mSQL (0.2ms)[0m  [1mINSERT INTO "microposts" ("content", "created_at", "updated_at", "user_id") VALUES (?, ?, ?, ?)[0m  [["content", "so long so longso longso longso longso longso longso longso long"], ["created_at", Wed, 16 Nov 2016 12:56:41 UTC +00:00], ["updated_at", Wed, 16 Nov 2016 12:56:41 UTC +00:00], ["user_id", 12]]
+  [1m[35m (3.9ms)[0m  commit transaction
+Redirected to http://localhost:3000/microposts/3
+Completed 302 Found in 6ms (ActiveRecord: 4.2ms)
+
+
+Started GET "/microposts/3" for 127.0.0.1 at 2016-11-16 14:56:41 +0200
+Processing by MicropostsController#show as HTML
+  Parameters: {"id"=>"3"}
+  [1m[36mMicropost Load (0.1ms)[0m  [1mSELECT "microposts".* FROM "microposts" WHERE "microposts"."id" = ? LIMIT 1[0m  [["id", "3"]]
+  Rendered microposts/show.html.erb within layouts/application (0.4ms)
+Completed 200 OK in 21ms (Views: 20.4ms | ActiveRecord: 0.1ms)
+
+
+Started GET "/assets/application.css?body=1" for 127.0.0.1 at 2016-11-16 14:56:41 +0200
+Served asset /application.css - 304 Not Modified (0ms)
+
+
+Started GET "/assets/microposts.css?body=1" for 127.0.0.1 at 2016-11-16 14:56:41 +0200
+Served asset /microposts.css - 304 Not Modified (0ms)
+
+
+Started GET "/assets/scaffolds.css?body=1" for 127.0.0.1 at 2016-11-16 14:56:41 +0200
+Served asset /scaffolds.css - 304 Not Modified (0ms)
+
+
+Started GET "/assets/jquery_ujs.js?body=1" for 127.0.0.1 at 2016-11-16 14:56:41 +0200
+Served asset /jquery_ujs.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/jquery.js?body=1" for 127.0.0.1 at 2016-11-16 14:56:41 +0200
+Served asset /jquery.js - 304 Not Modified (1ms)
+
+
+Started GET "/assets/users.css?body=1" for 127.0.0.1 at 2016-11-16 14:56:41 +0200
+Served asset /users.css - 304 Not Modified (0ms)
+
+
+Started GET "/assets/microposts.js?body=1" for 127.0.0.1 at 2016-11-16 14:56:41 +0200
+Served asset /microposts.js - 304 Not Modified (2ms)
+
+
+Started GET "/assets/application.js?body=1" for 127.0.0.1 at 2016-11-16 14:56:41 +0200
+Served asset /application.js - 304 Not Modified (1ms)
+
+
+Started GET "/assets/users.js?body=1" for 127.0.0.1 at 2016-11-16 14:56:41 +0200
+Served asset /users.js - 304 Not Modified (0ms)
+
+
+Started GET "/microposts" for 127.0.0.1 at 2016-11-16 14:56:43 +0200
+Processing by MicropostsController#index as HTML
+  [1m[35mMicropost Load (0.1ms)[0m  SELECT "microposts".* FROM "microposts" 
+  Rendered microposts/index.html.erb within layouts/application (1.9ms)
+Completed 200 OK in 6ms (Views: 5.4ms | ActiveRecord: 0.1ms)
+
+
+Started GET "/assets/microposts.css?body=1" for 127.0.0.1 at 2016-11-16 14:56:43 +0200
+Served asset /microposts.css - 304 Not Modified (0ms)
+
+
+Started GET "/assets/scaffolds.css?body=1" for 127.0.0.1 at 2016-11-16 14:56:43 +0200
+Served asset /scaffolds.css - 304 Not Modified (0ms)
+
+
+Started GET "/assets/application.css?body=1" for 127.0.0.1 at 2016-11-16 14:56:43 +0200
+Served asset /application.css - 304 Not Modified (1ms)
+
+
+Started GET "/assets/users.css?body=1" for 127.0.0.1 at 2016-11-16 14:56:43 +0200
+Served asset /users.css - 304 Not Modified (0ms)
+
+
+Started GET "/assets/jquery_ujs.js?body=1" for 127.0.0.1 at 2016-11-16 14:56:43 +0200
+Served asset /jquery_ujs.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/jquery.js?body=1" for 127.0.0.1 at 2016-11-16 14:56:43 +0200
+Served asset /jquery.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/users.js?body=1" for 127.0.0.1 at 2016-11-16 14:56:43 +0200
+Served asset /users.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/microposts.js?body=1" for 127.0.0.1 at 2016-11-16 14:56:43 +0200
+Served asset /microposts.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/application.js?body=1" for 127.0.0.1 at 2016-11-16 14:56:43 +0200
+Served asset /application.js - 304 Not Modified (0ms)
+
+
+Started GET "/microposts/new" for 127.0.0.1 at 2016-11-16 15:00:32 +0200
+Processing by MicropostsController#new as HTML
+  Rendered microposts/_form.html.erb (2.0ms)
+  Rendered microposts/new.html.erb within layouts/application (2.5ms)
+Completed 200 OK in 12ms (Views: 6.3ms | ActiveRecord: 0.4ms)
+
+
+Started GET "/assets/microposts.css?body=1" for 127.0.0.1 at 2016-11-16 15:00:33 +0200
+Served asset /microposts.css - 304 Not Modified (0ms)
+
+
+Started GET "/assets/application.css?body=1" for 127.0.0.1 at 2016-11-16 15:00:33 +0200
+Served asset /application.css - 304 Not Modified (26ms)
+
+
+Started GET "/assets/scaffolds.css?body=1" for 127.0.0.1 at 2016-11-16 15:00:33 +0200
+Served asset /scaffolds.css - 304 Not Modified (0ms)
+
+
+Started GET "/assets/users.css?body=1" for 127.0.0.1 at 2016-11-16 15:00:33 +0200
+Served asset /users.css - 304 Not Modified (0ms)
+
+
+Started GET "/assets/jquery.js?body=1" for 127.0.0.1 at 2016-11-16 15:00:33 +0200
+Served asset /jquery.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/jquery_ujs.js?body=1" for 127.0.0.1 at 2016-11-16 15:00:33 +0200
+Served asset /jquery_ujs.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/microposts.js?body=1" for 127.0.0.1 at 2016-11-16 15:00:33 +0200
+Served asset /microposts.js - 304 Not Modified (0ms)
+[2016-11-16 15:00:33] WARN  Could not determine content-length of response body. Set content-length of the response or set Response#chunked = true
+[2016-11-16 15:00:33] WARN  Could not determine content-length of response body. Set content-length of the response or set Response#chunked = true
+[2016-11-16 15:00:33] WARN  Could not determine content-length of response body. Set content-length of the response or set Response#chunked = true
+[2016-11-16 15:00:45] WARN  Could not determine content-length of response body. Set content-length of the response or set Response#chunked = true
+[2016-11-16 15:00:45] WARN  Could not determine content-length of response body. Set content-length of the response or set Response#chunked = true
+[2016-11-16 15:00:45] WARN  Could not determine content-length of response body. Set content-length of the response or set Response#chunked = true
+[2016-11-16 15:00:45] WARN  Could not determine content-length of response body. Set content-length of the response or set Response#chunked = true
+[2016-11-16 15:00:45] WARN  Could not determine content-length of response body. Set content-length of the response or set Response#chunked = true
+[2016-11-16 15:00:45] WARN  Could not determine content-length of response body. Set content-length of the response or set Response#chunked = true
+[2016-11-16 15:00:45] WARN  Could not determine content-length of response body. Set content-length of the response or set Response#chunked = true
+[2016-11-16 15:00:45] WARN  Could not determine content-length of response body. Set content-length of the response or set Response#chunked = true
+[2016-11-16 15:00:45] WARN  Could not determine content-length of response body. Set content-length of the response or set Response#chunked = true
+[2016-11-16 15:04:09] WARN  Could not determine content-length of response body. Set content-length of the response or set Response#chunked = true
+[2016-11-16 15:04:09] WARN  Could not determine content-length of response body. Set content-length of the response or set Response#chunked = true
+[2016-11-16 15:04:09] WARN  Could not determine content-length of response body. Set content-length of the response or set Response#chunked = true
+[2016-11-16 15:04:09] WARN  Could not determine content-length of response body. Set content-length of the response or set Response#chunked = true
+[2016-11-16 15:04:09] WARN  Could not determine content-length of response body. Set content-length of the response or set Response#chunked = true
+[2016-11-16 15:04:09] WARN  Could not determine content-length of response body. Set content-length of the response or set Response#chunked = true
+[2016-11-16 15:04:09] WARN  Could not determine content-length of response body. Set content-length of the response or set Response#chunked = true
+[2016-11-16 15:04:09] WARN  Could not determine content-length of response body. Set content-length of the response or set Response#chunked = true
+[2016-11-16 15:04:09] WARN  Could not determine content-length of response body. Set content-length of the response or set Response#chunked = true
+[2016-11-16 15:04:09] WARN  Could not determine content-length of response body. Set content-length of the response or set Response#chunked = true
+[2016-11-16 15:04:11] WARN  Could not determine content-length of response body. Set content-length of the response or set Response#chunked = true
+[2016-11-16 15:04:11] WARN  Could not determine content-length of response body. Set content-length of the response or set Response#chunked = true
+[2016-11-16 15:04:11] WARN  Could not determine content-length of response body. Set content-length of the response or set Response#chunked = true
+[2016-11-16 15:04:11] WARN  Could not determine content-length of response body. Set content-length of the response or set Response#chunked = true
+[2016-11-16 15:04:11] WARN  Could not determine content-length of response body. Set content-length of the response or set Response#chunked = true
+[2016-11-16 15:04:11] WARN  Could not determine content-length of response body. Set content-length of the response or set Response#chunked = true
+[2016-11-16 15:04:11] WARN  Could not determine content-length of response body. Set content-length of the response or set Response#chunked = true
+[2016-11-16 15:04:11] WARN  Could not determine content-length of response body. Set content-length of the response or set Response#chunked = true
+[2016-11-16 15:04:11] WARN  Could not determine content-length of response body. Set content-length of the response or set Response#chunked = true
+[2016-11-16 15:04:12] WARN  Could not determine content-length of response body. Set content-length of the response or set Response#chunked = true
+[2016-11-16 15:04:12] WARN  Could not determine content-length of response body. Set content-length of the response or set Response#chunked = true
+[2016-11-16 15:04:12] WARN  Could not determine content-length of response body. Set content-length of the response or set Response#chunked = true
+[2016-11-16 15:04:12] WARN  Could not determine content-length of response body. Set content-length of the response or set Response#chunked = true
+[2016-11-16 15:04:12] WARN  Could not determine content-length of response body. Set content-length of the response or set Response#chunked = true
+[2016-11-16 15:04:12] WARN  Could not determine content-length of response body. Set content-length of the response or set Response#chunked = true
+[2016-11-16 15:04:12] WARN  Could not determine content-length of response body. Set content-length of the response or set Response#chunked = true
+[2016-11-16 15:04:12] WARN  Could not determine content-length of response body. Set content-length of the response or set Response#chunked = true
+[2016-11-16 15:04:12] WARN  Could not determine content-length of response body. Set content-length of the response or set Response#chunked = true
+[2016-11-16 15:04:12] WARN  Could not determine content-length of response body. Set content-length of the response or set Response#chunked = true
+
+
+Started GET "/assets/users.js?body=1" for 127.0.0.1 at 2016-11-16 15:00:33 +0200
+Served asset /users.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/application.js?body=1" for 127.0.0.1 at 2016-11-16 15:00:33 +0200
+Served asset /application.js - 304 Not Modified (0ms)
+
+
+Started POST "/microposts" for 127.0.0.1 at 2016-11-16 15:00:45 +0200
+Processing by MicropostsController#create as HTML
+  Parameters: {"utf8"=>"✓", "authenticity_token"=>"30CbzjM78+IsGNtSM6SIYzGWtHTrORpwH6mvV2NKuY4=", "micropost"=>{"content"=>"1234567890123456789012345678901234567890", "user_id"=>"1"}, "commit"=>"Create Micropost"}
+  [1m[36m (0.1ms)[0m  [1mbegin transaction[0m
+  [1m[35m (0.0ms)[0m  rollback transaction
+  Rendered microposts/_form.html.erb (1.9ms)
+  Rendered microposts/new.html.erb within layouts/application (2.4ms)
+Completed 200 OK in 8ms (Views: 6.0ms | ActiveRecord: 0.1ms)
+
+
+Started GET "/assets/application.css?body=1" for 127.0.0.1 at 2016-11-16 15:00:45 +0200
+Served asset /application.css - 304 Not Modified (1ms)
+
+
+Started GET "/assets/microposts.css?body=1" for 127.0.0.1 at 2016-11-16 15:00:45 +0200
+Served asset /microposts.css - 304 Not Modified (0ms)
+
+
+Started GET "/assets/users.css?body=1" for 127.0.0.1 at 2016-11-16 15:00:45 +0200
+Served asset /users.css - 304 Not Modified (2ms)
+
+
+Started GET "/assets/scaffolds.css?body=1" for 127.0.0.1 at 2016-11-16 15:00:45 +0200
+Served asset /scaffolds.css - 304 Not Modified (0ms)
+
+
+Started GET "/assets/jquery.js?body=1" for 127.0.0.1 at 2016-11-16 15:00:45 +0200
+Served asset /jquery.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/users.js?body=1" for 127.0.0.1 at 2016-11-16 15:00:45 +0200
+Served asset /users.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/microposts.js?body=1" for 127.0.0.1 at 2016-11-16 15:00:45 +0200
+Served asset /microposts.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/application.js?body=1" for 127.0.0.1 at 2016-11-16 15:00:45 +0200
+Served asset /application.js - 304 Not Modified (1ms)
+
+
+Started GET "/assets/jquery_ujs.js?body=1" for 127.0.0.1 at 2016-11-16 15:00:45 +0200
+Served asset /jquery_ujs.js - 304 Not Modified (0ms)
+
+
+Started POST "/microposts" for 127.0.0.1 at 2016-11-16 15:04:09 +0200
+Processing by MicropostsController#create as HTML
+  Parameters: {"utf8"=>"✓", "authenticity_token"=>"30CbzjM78+IsGNtSM6SIYzGWtHTrORpwH6mvV2NKuY4=", "micropost"=>{"content"=>"1234 ", "user_id"=>"1"}, "commit"=>"Create Micropost"}
+  [1m[36m (0.0ms)[0m  [1mbegin transaction[0m
+  [1m[35mSQL (0.3ms)[0m  INSERT INTO "microposts" ("content", "created_at", "updated_at", "user_id") VALUES (?, ?, ?, ?)  [["content", "1234 "], ["created_at", Wed, 16 Nov 2016 13:04:09 UTC +00:00], ["updated_at", Wed, 16 Nov 2016 13:04:09 UTC +00:00], ["user_id", 1]]
+  [1m[36m (17.7ms)[0m  [1mcommit transaction[0m
+Redirected to http://localhost:3000/microposts/4
+Completed 302 Found in 26ms (ActiveRecord: 18.4ms)
+
+
+Started GET "/microposts/4" for 127.0.0.1 at 2016-11-16 15:04:09 +0200
+Processing by MicropostsController#show as HTML
+  Parameters: {"id"=>"4"}
+  [1m[35mMicropost Load (0.2ms)[0m  SELECT "microposts".* FROM "microposts" WHERE "microposts"."id" = ? LIMIT 1  [["id", "4"]]
+  Rendered microposts/show.html.erb within layouts/application (0.6ms)
+Completed 200 OK in 6ms (Views: 4.3ms | ActiveRecord: 0.2ms)
+
+
+Started GET "/assets/microposts.css?body=1" for 127.0.0.1 at 2016-11-16 15:04:09 +0200
+Served asset /microposts.css - 304 Not Modified (0ms)
+
+
+Started GET "/assets/users.css?body=1" for 127.0.0.1 at 2016-11-16 15:04:09 +0200
+Served asset /users.css - 304 Not Modified (0ms)
+
+
+Started GET "/assets/jquery.js?body=1" for 127.0.0.1 at 2016-11-16 15:04:09 +0200
+Served asset /jquery.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/scaffolds.css?body=1" for 127.0.0.1 at 2016-11-16 15:04:09 +0200
+Served asset /scaffolds.css - 304 Not Modified (0ms)
+
+
+Started GET "/assets/application.css?body=1" for 127.0.0.1 at 2016-11-16 15:04:09 +0200
+Served asset /application.css - 304 Not Modified (0ms)
+
+
+Started GET "/assets/microposts.js?body=1" for 127.0.0.1 at 2016-11-16 15:04:09 +0200
+Served asset /microposts.js - 304 Not Modified (19ms)
+
+
+Started GET "/assets/jquery_ujs.js?body=1" for 127.0.0.1 at 2016-11-16 15:04:09 +0200
+Served asset /jquery_ujs.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/users.js?body=1" for 127.0.0.1 at 2016-11-16 15:04:09 +0200
+Served asset /users.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/application.js?body=1" for 127.0.0.1 at 2016-11-16 15:04:09 +0200
+Served asset /application.js - 304 Not Modified (1ms)
+
+
+Started GET "/microposts" for 127.0.0.1 at 2016-11-16 15:04:11 +0200
+Processing by MicropostsController#index as HTML
+  [1m[36mMicropost Load (0.1ms)[0m  [1mSELECT "microposts".* FROM "microposts" [0m
+  Rendered microposts/index.html.erb within layouts/application (3.0ms)
+Completed 200 OK in 8ms (Views: 6.5ms | ActiveRecord: 0.1ms)
+
+
+Started GET "/assets/application.css?body=1" for 127.0.0.1 at 2016-11-16 15:04:11 +0200
+Served asset /application.css - 304 Not Modified (0ms)
+
+
+Started GET "/assets/users.css?body=1" for 127.0.0.1 at 2016-11-16 15:04:11 +0200
+Served asset /users.css - 304 Not Modified (0ms)
+
+
+Started GET "/assets/microposts.css?body=1" for 127.0.0.1 at 2016-11-16 15:04:11 +0200
+Served asset /microposts.css - 304 Not Modified (0ms)
+
+
+Started GET "/assets/scaffolds.css?body=1" for 127.0.0.1 at 2016-11-16 15:04:11 +0200
+Served asset /scaffolds.css - 304 Not Modified (0ms)
+
+
+Started GET "/assets/jquery.js?body=1" for 127.0.0.1 at 2016-11-16 15:04:11 +0200
+Served asset /jquery.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/jquery_ujs.js?body=1" for 127.0.0.1 at 2016-11-16 15:04:11 +0200
+Served asset /jquery_ujs.js - 304 Not Modified (1ms)
+
+
+Started GET "/assets/application.js?body=1" for 127.0.0.1 at 2016-11-16 15:04:11 +0200
+Served asset /application.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/microposts.js?body=1" for 127.0.0.1 at 2016-11-16 15:04:11 +0200
+Served asset /microposts.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/users.js?body=1" for 127.0.0.1 at 2016-11-16 15:04:11 +0200
+Served asset /users.js - 304 Not Modified (0ms)
+
+
+Started GET "/microposts/new" for 127.0.0.1 at 2016-11-16 15:04:12 +0200
+Processing by MicropostsController#new as HTML
+  Rendered microposts/_form.html.erb (1.8ms)
+  Rendered microposts/new.html.erb within layouts/application (2.5ms)
+Completed 200 OK in 6ms (Views: 5.9ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/assets/application.css?body=1" for 127.0.0.1 at 2016-11-16 15:04:12 +0200
+Served asset /application.css - 304 Not Modified (0ms)
+
+
+Started GET "/assets/scaffolds.css?body=1" for 127.0.0.1 at 2016-11-16 15:04:12 +0200
+Served asset /scaffolds.css - 304 Not Modified (2ms)
+
+
+Started GET "/assets/microposts.css?body=1" for 127.0.0.1 at 2016-11-16 15:04:12 +0200
+Served asset /microposts.css - 304 Not Modified (0ms)
+
+
+Started GET "/assets/users.css?body=1" for 127.0.0.1 at 2016-11-16 15:04:12 +0200
+Served asset /users.css - 304 Not Modified (0ms)
+
+
+Started GET "/assets/jquery.js?body=1" for 127.0.0.1 at 2016-11-16 15:04:12 +0200
+Served asset /jquery.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/jquery_ujs.js?body=1" for 127.0.0.1 at 2016-11-16 15:04:12 +0200
+Served asset /jquery_ujs.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/microposts.js?body=1" for 127.0.0.1 at 2016-11-16 15:04:12 +0200
+Served asset /microposts.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/application.js?body=1" for 127.0.0.1 at 2016-11-16 15:04:12 +0200
+Served asset /application.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/users.js?body=1" for 127.0.0.1 at 2016-11-16 15:04:12 +0200
+Served asset /users.js - 304 Not Modified (0ms)
+
+
+Started POST "/microposts" for 127.0.0.1 at 2016-11-16 15:04:15 +0200
+Processing by MicropostsController#create as HTML
+  Parameters: {"utf8"=>"✓", "authenticity_token"=>"30CbzjM78+IsGNtSM6SIYzGWtHTrORpwH6mvV2NKuY4=", "micropost"=>{"content"=>"123456", "user_id"=>"1"}, "commit"=>"Create Micropost"}
+  [1m[35m (0.1ms)[0m  begin transaction
+  [1m[36mSQL (0.3ms)[0m  [1mINSERT INTO "microposts" ("content", "created_at", "updated_at", "user_id") VALUES (?, ?, ?, ?)[0m  [["content", "123456"], ["created_at", Wed, 16 Nov 2016 13:04:15 UTC +00:00], ["updated_at", Wed, 16 Nov 2016 13:04:15 UTC +00:00], ["user_id", 1]]
+  [1m[35m (11.6ms)[0m  commit transaction
+Redirected to http://localhost:3000/microposts/5
+Completed 302 Found in 14ms (ActiveRecord: 12.0ms)
+[2016-11-16 15:04:16] WARN  Could not determine content-length of response body. Set content-length of the response or set Response#chunked = true
+[2016-11-16 15:04:16] WARN  Could not determine content-length of response body. Set content-length of the response or set Response#chunked = true
+[2016-11-16 15:04:16] WARN  Could not determine content-length of response body. Set content-length of the response or set Response#chunked = true
+[2016-11-16 15:04:16] WARN  Could not determine content-length of response body. Set content-length of the response or set Response#chunked = true
+[2016-11-16 15:04:16] WARN  Could not determine content-length of response body. Set content-length of the response or set Response#chunked = true
+[2016-11-16 15:04:16] WARN  Could not determine content-length of response body. Set content-length of the response or set Response#chunked = true
+[2016-11-16 15:04:16] WARN  Could not determine content-length of response body. Set content-length of the response or set Response#chunked = true
+[2016-11-16 15:04:16] WARN  Could not determine content-length of response body. Set content-length of the response or set Response#chunked = true
+[2016-11-16 15:04:16] WARN  Could not determine content-length of response body. Set content-length of the response or set Response#chunked = true
+[2016-11-16 15:04:17] WARN  Could not determine content-length of response body. Set content-length of the response or set Response#chunked = true
+[2016-11-16 15:04:17] WARN  Could not determine content-length of response body. Set content-length of the response or set Response#chunked = true
+[2016-11-16 15:04:17] WARN  Could not determine content-length of response body. Set content-length of the response or set Response#chunked = true
+[2016-11-16 15:04:17] WARN  Could not determine content-length of response body. Set content-length of the response or set Response#chunked = true
+[2016-11-16 15:04:17] WARN  Could not determine content-length of response body. Set content-length of the response or set Response#chunked = true
+[2016-11-16 15:04:17] WARN  Could not determine content-length of response body. Set content-length of the response or set Response#chunked = true
+[2016-11-16 15:04:17] WARN  Could not determine content-length of response body. Set content-length of the response or set Response#chunked = true
+[2016-11-16 15:04:17] WARN  Could not determine content-length of response body. Set content-length of the response or set Response#chunked = true
+[2016-11-16 15:04:17] WARN  Could not determine content-length of response body. Set content-length of the response or set Response#chunked = true
